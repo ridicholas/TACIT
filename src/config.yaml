@@ -1,0 +1,44 @@
+reps: 5
+agg_interval: 3
+agg_steps: 3
+claims_to_sample: 500
+# if running state 2, put your intended knowledgeable community in last position
+communities:
+- 3
+- 34
+- 72
+depths:
+- 2
+- 4
+- 6
+fact_checks_per_step: 10
+high_belief: 
+- 0.7
+- 0.7
+low_belief: 
+- 0.4
+- 0.3
+learning_rate: 0.2
+load_data: False
+low_impactedness: 
+- 0.3
+- 0.2
+high_impactedness: 
+- 0.8
+- 0.8
+middle_impactedness: 0.5
+min_degree: 1
+nodes_to_sample: 15
+num_claims: 5000
+perc_bots: 0.1
+perc_nodes_to_subset: 0.15
+post_duration: 2
+random_communities: False
+runtime: 100
+update_beliefs: true
+state_of_world: 2
+output_sim_final_no_intervention: ../output/simulation_final_no_intervention
+output_sim_midpoint: ../output/simulation_pre_period
+raw_network_path: ../data/nodes_with_community.gexf
+ready_network_path: ../output/simulation_net_communities_3_43_56.gpickle
+community_graph_path: ../data/community_net.gexf
