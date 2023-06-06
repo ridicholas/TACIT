@@ -1,6 +1,6 @@
 # TACIT
 
-This repository contains code for the Topic-Aware, Community-Impacted Twitter simulator, as introduced in the paper: [Does AI-Assisted Fact-Checking Disproportionately Benefit Majority Groups Online](https://arxiv.org/abs/2302.03782) [In Proceedings @ Facct '23'].
+This repository contains code for the Topic-Aware, Community-Impacted Twitter simulator, as introduced in the paper: [Does AI-Assisted Fact-Checking Disproportionately Benefit Majority Groups Online](https://arxiv.org/abs/2302.03782) [In Proceedings @ Facct '23].
 
 ## TACIT Simulation Description
 
@@ -39,6 +39,9 @@ In the `config.yaml` file, in addition to setting simulation runtime settings, y
 
 ### Output
 The main.py file generates a `TopicSim` object and progresses it through the simulation. Once the simulation completes, the `TopicSim` object is stored in a .pickle file and saved in the output/ folder. 
+
+# Requirements
+All requirements found in `requirements.txt`. Code was written using Python 3.10.6. 
 
 
 
